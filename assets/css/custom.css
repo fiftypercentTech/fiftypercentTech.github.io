@@ -1,23 +1,19 @@
 html {
-    min-height: 100%
-}
-
-* {
-    padding: 0;
-    margin: 0;
-    font-family: "Courier New", Courier, monospace;
-    font-color: black;
-    font-size: 14px;
-    /*background-color: red !important;*/
+    min-height: 100%;
 }
 
 body {
+    padding: 0;
+    margin: 0;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    color: black;
     background: url('https://github.com/fiftypercentTech/fiftypercentTech.github.io/blob/master/assets/img/bg.jpg?raw=true') no-repeat center center fixed;
     background-size: cover;
-    min-height: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    min-height: 100%;
 }
 
 a:link {
@@ -77,3 +73,4 @@ a:hover {
     background-color: black;
     animation: colorChange 4s;
 }
+
