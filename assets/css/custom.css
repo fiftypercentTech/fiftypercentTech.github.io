@@ -1,0 +1,79 @@
+html {
+    min-height: 100%
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Courier New", Courier, monospace;
+    font-color: black;
+    font-size: 14px;
+    /*background-color: red !important;*/
+}
+
+body {
+    background: url('https://github.com/fiftypercentTech/fiftypercentTech.github.io/blob/master/assets/img/bg.jpg?raw=true') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+a:link {
+  color: black;
+  font-family: monospace;
+  font-size: 16px;
+}
+
+a:hover {
+  background-color: green;
+}
+
+.title-box {
+    width: 250px;
+    margin: 0 auto;
+    padding-top: 20px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,0.7));
+    animation: colorChange 3s;
+}
+
+.title {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.vertical-text {
+    color: white;
+    writing-mode: vertical-rl;
+    font-family: monospace;
+}
+
+.normal-text {
+    color: black;
+    text-align: center;
+    font-family: monospace;
+}
+
+#project-box {
+    margin-top: 30px;
+    padding: 0  17% 0 5%;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,0.7));
+}
+
+@keyframes colorChange {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+.line {
+    width: 50%;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    animation: colorChange 4s;
+}
